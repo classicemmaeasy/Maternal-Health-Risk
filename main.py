@@ -3,9 +3,9 @@ import pickle
 import numpy as np
 
 
-loaded_model=pickle.load(open('C:/Users/HP/Documents/Preg/model_R.pkl', 'rb'))
+loaded_model=pickle.load(open('model_R.pkl', 'rb'))
 
-sc_model=pickle.load(open('C:/Users/HP/Documents/Preg/sc_model (1).sav', 'rb'))
+sc_model=pickle.load(open('sc_model (1).sav', 'rb'))
 
 
 
