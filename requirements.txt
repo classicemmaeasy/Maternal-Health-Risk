@@ -2,6 +2,6 @@ numpy
 pandas
 matplotlib
 seaborn
-scikit-learn
-imblearn
-GridSearchCV
+scikit-learn==1.4.2
+imblearn==0.12.4
+pickle
