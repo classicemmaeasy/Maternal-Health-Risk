@@ -2,6 +2,5 @@ numpy
 pandas
 matplotlib
 seaborn
-scikit-learn
-imbalanced-learn
-pickle
+scikit-learn==1.5.2
+imblearn==0.12.4
