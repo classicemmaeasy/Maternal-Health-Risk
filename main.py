@@ -43,7 +43,7 @@ def main():
 
     
     #getting the input data  from the user
-    Age= st.text_input('Enter Age')
+    Age= st.text_input("Enter Patient's Age")
     Systolic= st.text_input('Enter Systolic Blood Pressure')
     BS= st.text_input('Enter Blood Sugar')
     BT=st.text_input('Enter Body Temperature level')
