@@ -20,11 +20,11 @@ def preg_prediction(input_data):
         return "Please enter numbers only"
 
     if (prediction[0] == 0):
-        return 'This patient has low risk pregnancy to issues'
+        return 'This patient has low risk to pregnancy issues'
     elif (prediction[0] == 1):
-        return  'This patient has mid risk pregnancy issues'
+        return  'This patient has mid risk to pregnancy issues'
     elif (prediction[0] == 2):
-        return 'This patient has high risk pregnancy issues'
+        return 'This patient has high risk to pregnancy issues'
     else:
         return 'invalid dataset'
 
