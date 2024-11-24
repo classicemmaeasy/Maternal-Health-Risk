@@ -32,8 +32,10 @@ def preg_prediction(input_data):
 def main():
 
 
-    
-    st.title("Welcome to the Maternal Health Risk Prediction App😊")
+    import streamlit as st
+
+
+    st.markdown('<p style="font-size:26px; font-weight:bold;">Welcome to the Maternal Health Risk Prediction App😊</p>', unsafe_allow_html=True)
 
 
     st.write("This app predicts the risk level for maternal health based on various factors.")
