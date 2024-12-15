@@ -23,10 +23,10 @@
 
 ## Deployment
 
-To deploy this project run
+To deploy this project run the command below:
 
 ```bash
   streamlit run streamlit/app.py 
-  #all done
+  #all done cool
 ```
 
