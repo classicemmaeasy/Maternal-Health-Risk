@@ -26,6 +26,7 @@
 To deploy this project run
 
 ```bash
-  streamlit run streamlit/app.py
+  streamlit run streamlit/app.py 
+  #all done
 ```
 
