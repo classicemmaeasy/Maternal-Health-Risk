@@ -35,7 +35,7 @@ def preg_prediction(input_data):
 
 # Main function to handle Streamlit interface
 def main():
-    st.markdown('<p style="font-size:24px; font-weight:bold;">Welcome to the Maternal Health Risk Prediction App😊</p>', unsafe_allow_html=True)
+    st.markdown('<p style="font-size:22px; font-weight:bold;">Welcome to the Maternal Health Risk Prediction App😊</p>', unsafe_allow_html=True)
     st.write("This app predicts the risk level for maternal health based on various factors.")
 
     # Hints for user inputs
