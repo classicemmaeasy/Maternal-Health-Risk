@@ -40,11 +40,12 @@ def main():
         <style>
         #MainMenu {visibility: hidden;}
         footer {visibility: hidden;}
+        img {visibility: hidden;}
         footer:after {content: ''; display: none;}
         </style>
     """
     st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-    
+
     st.markdown('<p style="font-size:22px; font-weight:bold;">Welcome to the Maternal Health Risk Prediction App😊</p>', unsafe_allow_html=True)
     st.write("This app predicts the risk level for maternal health based on various factors.")
 
