@@ -45,7 +45,7 @@ def main():
     # st.markdown(hide_streamlit_style, unsafe_allow_html=True)
     
     st.markdown('<p style="font-size:22px; font-weight:bold;">Welcome to the Maternal Health Risk Prediction App😊</p>', unsafe_allow_html=True)
-    st.write("This app predicts the risk level for maternal health based on various factors.")
+    st.write("This ap predicts the risk level for maternal health based on various factors.")
 
     # Hints for user inputs
     age_hint = "The age of the person in years. It should be a numeric value."
