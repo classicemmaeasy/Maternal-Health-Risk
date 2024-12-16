@@ -35,17 +35,18 @@ def preg_prediction(input_data):
 
 # Main function to handle Streamlit interface
 def main():
-    # # Custom CSS to hide Streamlit branding and footer
-    # hide_streamlit_style = """
-    #     <style>
-    #     #MainMenu {visibility: hidden;}
-    #     footer {visibility: hidden;}
-    #     </style>
-    # """
-    # st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+    # Custom CSS to hide Streamlit branding and footer
+    hide_streamlit_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        footer:after {content: ''; display: none;}
+        </style>
+    """
+    st.markdown(hide_streamlit_style, unsafe_allow_html=True)
     
     st.markdown('<p style="font-size:22px; font-weight:bold;">Welcome to the Maternal Health Risk Prediction App😊</p>', unsafe_allow_html=True)
-    st.write("This ap predicts the risk level for maternal health based on various factors.")
+    st.write("This app predicts the risk level for maternal health based on various factors.")
 
     # Hints for user inputs
     age_hint = "The age of the person in years. It should be a numeric value."
